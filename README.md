@@ -1,4 +1,4 @@
-<h1 align="center">Senior Backend • DevOps • AI Engineer</h1>
+<h1 align="center">Middle Backend • DevOps • AI Engineer</h1>
 <p align="center">
   <strong>Maksim Sotnikov</strong> — Remote (Georgia)
 </p>
@@ -20,7 +20,7 @@
 ---
 
 ## 🔹 Summary  
-Senior engineer specialized in **backend development**, **DevOps automation**, and **AI/LLM integration**.  
+Middle engineer specialized in **backend development**, **DevOps automation**, and **AI/LLM integration**.  
 Experienced in designing scalable microservices, implementing Kubernetes/Terraform infrastructures,
 and building AI-powered backend systems (embeddings, RAG, agent pipelines).
 
