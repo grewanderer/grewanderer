@@ -1,97 +1,116 @@
-<!--
-    ANIMUS ARCTIC PROFILE
-    Minimal. Precise. Cold-engineered.
--->
-
-<h1 align="center">❄️ Animus Arctic Engineering Core</h1>
+<h1 align="center">Senior Backend • DevOps • AI Engineer</h1>
 <p align="center">
-  <strong>Maksim Sotnikov</strong> • Backend / DevOps / AI Integration Engineer  
-  <br>Remote • Georgia • Contractor / Full-time
+  <strong>Maksim Sotnikov</strong> — Remote (Georgia)
 </p>
 
 ---
 
-## 🌌 About Me
-
-I build systems that behave like glaciers: steady, resilient, and impossible to break.  
-My work sits at the intersection of **backend engineering**, **cloud automation**, and **LLM-powered intelligence**.
-
-I design and maintain high-throughput APIs, orchestrate cloud infrastructure,  
-and integrate modern AI models into production workflows to create practical, reliable automation.
+<!-- Tech badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
+</p>
 
 ---
 
-## 🧊 Arctic Skill Matrix
+## 🔹 Summary  
+Senior engineer specialized in **backend development**, **DevOps automation**, and **AI/LLM integration**.  
+Experienced in designing scalable microservices, implementing Kubernetes/Terraform infrastructures,
+and building AI-powered backend systems (embeddings, RAG, agent pipelines).
+
+Focused on reliability, automation, cloud orchestration, and clean backend architecture.
+
+---
+
+## 🔹 Core Competencies (ATS Keywords)
 
 ### **Backend Engineering**
-- Go / Python / Node.js  
-- REST / gRPC / WebSockets  
-- Event-driven systems • Microservices  
-- PostgreSQL • Redis • MongoDB  
+- Go, Python, Node.js  
+- REST, gRPC, WebSockets  
+- Microservices Architecture  
+- Distributed Systems  
+- Event-Driven Architecture  
+- High-Throughput APIs  
+- PostgreSQL, Redis, MongoDB  
+- API Design, Clean Architecture, DDD  
 
-### **DevOps & Cloud Automation**
-- Docker • Kubernetes • Helm  
-- Terraform (AWS / DigitalOcean / Hetzner)  
-- GitHub Actions CI/CD pipelines  
-- Linux • Nginx • Observability (Grafana / Prometheus)
+### **DevOps & Cloud**
+- Docker, Docker Compose  
+- Kubernetes (K8s), Helm, Kustomize  
+- Infrastructure as Code (Terraform)  
+- CI/CD Pipelines (GitHub Actions, GitLab CI)  
+- AWS, DigitalOcean, Hetzner Cloud  
+- Linux Administration, Nginx  
+- Prometheus, Grafana, Alertmanager  
 
-### **AI Systems & Integrations**
-- OpenAI • Qwen • Claude models  
-- Embeddings • Vector search • RAG pipelines  
-- Agent reasoning & tool execution  
-- AI automation inside backend environments
-
----
-
-## 🌐 Featured Arctic Projects
-
-### **🔹 Animus Coder — Autonomous Engineering System**
-LLM-powered coding agent with real tool access, multi-step reasoning,  
-file navigation, patch generation, and provider-agnostic scalability.
-
-`Go • Python • FastAPI • OpenAI/Qwen • Docker • CI/CD`
-
----
-
-### **🔹 Arctic Infra Template — K8s • Terraform • Automation**
-Production-grade infrastructure blueprint.  
-Repeatable deployments, GitOps pipelines, K8s orchestration, monitoring stack.
-
-`Kubernetes • Terraform • Helm • GitHub Actions • Prometheus`
+### **AI / LLM Integration**
+- OpenAI API, Qwen, Claude  
+- Embeddings, Vector Search (FAISS/Milvus/Chroma)  
+- Retrieval-Augmented Generation (RAG)  
+- Agent Systems, Tool Execution, Multi-step Reasoning  
+- Inference Pipelines, Streaming Responses  
+- Tokenization, Text Processing  
 
 ---
 
-### **🔹 AI Agent Backend — LLM Integration Core**
-Backend engine for inference pipelines: RAG, embeddings,  
-action agents, vector search, structured reasoning.
-
-`Python • FastAPI • Postgres • Redis • Qwen/OpenAI`
-
----
-
-## 💠 Engineering Philosophy
-
-- **System > Code** — I build predictable systems, not fragile scripts.  
-- **Automation First** — if a task repeats, it becomes a pipeline.  
-- **AI as a Tool, Not Decoration** — models must deliver measurable value.  
-- **Clarity Wins** — simple architecture outlives complex brilliance.  
+## 🔹 Experience Highlights (ATS Optimized)
+- **Designed** and **implemented** backend services in Go/Python for high-traffic systems.  
+- **Automated** cloud provisioning using Terraform and Kubernetes.  
+- **Developed** LLM-based backend features (embeddings, RAG, agent workflows).  
+- **Integrated** OpenAI/Qwen models into production systems for automation tasks.  
+- **Optimized** CI/CD pipelines via GitHub Actions, improving deployment speed and stability.  
+- **Built** observability stacks and monitoring dashboards with Prometheus/Grafana.  
 
 ---
 
-## 🧭 Current Focus
-- Multi-agent orchestration  
-- Large-scale AI infra patterns  
-- Kubernetes as execution substrate  
-- Developer automation platforms (Codex-style)
+## 🔹 Featured Projects
+
+### **1. Coding Agent Platform**
+Autonomous engineering assistant supporting tool execution, multi-step reasoning,
+patch generation, and file navigation.
+
+**Tech:** Go • Python • FastAPI • Docker • OpenAI/Qwen • CI/CD  
+**Keywords:** agent systems, LLM integration, code automation
 
 ---
 
-## 📫 Contact
-`your_email_here`  
-Available for **remote roles** (Europe / US) or B2B **contract via Georgia (1% tax)**.
+### **2. Infrastructure-as-Code Template**
+Production-ready IaC stack: Terraform provisioning → Kubernetes cluster →
+Helm deployment → GitHub Actions CI/CD → Monitoring/Alerting.
+
+**Tech:** Kubernetes • Terraform • Helm • GitHub Actions • Prometheus  
+**Keywords:** IaC, automation, cloud orchestration, GitOps
+
+---
+
+### **3. AI Backend Engine**
+Embeddings, vector search, RAG, retrieval pipelines, and structured agent logic.
+
+**Tech:** Python • FastAPI • PostgreSQL • Redis • LLM APIs  
+**Keywords:** RAG, semantic search, AI integration, inference pipelines
+
+---
+
+## 🔹 Engineering Principles
+- Predictable, observable, maintainable systems  
+- Automation-first approach for all repeated tasks  
+- AI should create measurable workflow efficiency  
+- Simplicity and clarity over unnecessary complexity  
+
+---
+
+## 🔹 Contact  
+`rewanderer@proton.me`  
+Open to **remote positions** (EU / US) or **B2B contract** via Georgia.
 
 ---
 
 <p align="center">
-  <sub>Animus Arctic Core • Precision-Built Systems for the New Era</sub>
+  <sub>Engineering scalable systems with automation, clarity, and modern AI capabilities.</sub>
 </p>
