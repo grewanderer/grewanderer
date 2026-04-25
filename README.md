@@ -2,174 +2,169 @@
 
 <p align="center">
   <strong>Senior Backend / Platform Engineer</strong><br/>
-  Go · Rust · Python · Distributed Systems · Embedded Linux · Reliability · Secure Infrastructure
+  Go · Rust · Python · Distributed Systems · Embedded Linux · Secure Infrastructure · Reliability Engineering
 </p>
 
 <p align="center">
-  Remote · <a href="mailto:rewanderer@proton.me">rewanderer@proton.me</a>
+  <a href="mailto:rewanderer@proton.me">rewanderer@proton.me</a> · Remote · Backend · Platform · Systems · Infrastructure
 </p>
 
 <p align="center">
-  <a href="https://github.com/grewanderer/animus-link">Secure Overlay Platform</a> ·
-  <a href="https://github.com/AnimusHQ/animus-lab">ML Infrastructure Lab</a> ·
-  <a href="https://github.com/grewanderer/animus_coder">Agentic Engineering Core</a>
+  <a href="https://github.com/grewanderer?tab=repositories">Repositories</a> ·
+  <a href="https://github.com/grewanderer/animus-link">Secure Overlay</a> ·
+  <a href="https://github.com/AnimusHQ/animus-lab">ML Infrastructure</a> ·
+  <a href="https://github.com/grewanderer/animus_coder">Agentic Engineering</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Go-Backend-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go Backend" />
+  <img src="https://img.shields.io/badge/Rust-Systems-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust Systems" />
+  <img src="https://img.shields.io/badge/Python-Automation%20%26%20ML-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Automation and ML" />
+  <img src="https://img.shields.io/badge/Linux-Platform-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux Platform" />
+  <img src="https://img.shields.io/badge/Buildroot-Embedded%20Linux-2A9D8F?style=flat-square&logo=linux&logoColor=white" alt="Buildroot" />
+  <img src="https://img.shields.io/badge/Kubernetes-Infrastructure-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/PostgreSQL-Data-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-Observability-000000?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
 </p>
 
 ---
 
-## Engineering Profile
+## Engineering Positioning
 
-I build backend, platform, and embedded Linux systems where correctness, observability, reproducibility, and operational control matter.
+I build backend, platform, and embedded Linux systems where correctness, reproducibility, observability, and operational control are not optional.
 
-My strongest area is **Go backend engineering** for distributed, integration-heavy, and hardware-adjacent systems.  
-I use **Rust** for systems and platform work, and **Python** for automation, tooling, ML infrastructure, and evaluation workflows.
+My strongest profile is **Go backend engineering** for distributed, integration-heavy, and hardware-adjacent systems. I use **Rust** for systems and platform components, and **Python** for automation, ML infrastructure, evaluation workflows, and operational tooling.
 
-I work best on systems that must stay understandable and operable under real production constraints: unreliable networks, constrained devices, strict integration boundaries, long-lived APIs, audit requirements, and failure modes that need to be explicit rather than hidden.
-
----
-
-## What I Am Strong At
-
-- Backend services in **Go**, **Rust**, and **Python**
-- Distributed systems with explicit state, clear ownership, and predictable failure handling
-- Embedded Linux and platform engineering with **Buildroot**, firmware images, rootfs composition, and hardware validation
-- API design for REST, gRPC, WebSockets, SOAP / WS-*, ONVIF, RTSP, and protocol-heavy integrations
-- Secure transport, authentication, authorization, OIDC/JWT, TLS/DTLS, and policy enforcement
-- CI/CD for reproducible builds, firmware delivery, test automation, and release gates
-- Observability with metrics, tracing, structured logs, Prometheus, Grafana, OpenTelemetry, and ELK
-- ML infrastructure for reproducible experiments, data pipelines, evaluation workflows, and production-oriented inference systems
+I am useful to teams that need someone who can move between product requirements, low-level runtime behavior, infrastructure constraints, and production failure modes without losing engineering discipline.
 
 ---
 
-## Featured Work
+## Where I Create Value
 
-### Secure Overlay Access Platform
-
-A relay-first secure overlay platform in Rust for controlled service access across devices and networks.
-
-Focus areas:
-
-- Wire protocol design
-- Identity, crypto, relay, daemon API, and CLI architecture
-- Signed token policy and deny-by-default exposure
-- Reproducible validation through conformance vectors and release artifacts
-- Operational correctness for local and CI-driven runtime flows
-
-Repository: [grewanderer/animus-link](https://github.com/grewanderer/animus-link)
+- **Backend systems:** Go services, API platforms, distributed workflows, explicit state machines, integration-heavy backends.
+- **Platform engineering:** Linux-based runtime environments, reproducible builds, CI/CD gates, deployment automation, release evidence.
+- **Embedded Linux:** Buildroot-based systems, root filesystem composition, firmware artifacts, QEMU validation, hardware-adjacent services.
+- **Reliability:** observability, deterministic failure reporting, production debugging, long-term operability, incident-informed design.
+- **Security & networking:** TLS/DTLS, secure transport, service exposure policy, authentication, authorization, OIDC/JWT, protocol integration.
+- **ML infrastructure:** reproducible experiments, dataset/code/environment versioning, data-processing pipelines, model integration, evaluation automation.
 
 ---
 
-### ML Infrastructure Lab
+## Featured Engineering Work
 
-An enterprise-style machine learning infrastructure platform designed around reproducibility, auditability, and controlled execution.
+### [Secure Overlay Access Platform](https://github.com/grewanderer/animus-link)
 
-Focus areas:
+Relay-first secure overlay infrastructure in Rust for controlled service access across devices, networks, and constrained environments.
 
-- Control Plane / Data Plane separation
-- Dataset versioning, code references, environment locks, and policy-driven execution
-- Append-only audit and explicit domain entities
-- On-prem, private cloud, and air-gapped deployment models
-- Backend architecture for experiment orchestration and evaluation workflows
-
-Repository: [AnimusHQ/animus-lab](https://github.com/AnimusHQ/animus-lab)
+**Engineering focus:** secure networking, wire protocol design, identity, crypto, relay architecture, daemon APIs, CLI flows, conformance vectors, reproducible validation, and artifact-backed release checks.
 
 ---
 
-### Agentic Engineering Core
+### [ML Infrastructure Lab](https://github.com/AnimusHQ/animus-lab)
 
-A policy-first coding and automation infrastructure focused on reproducible execution, local control, proof bundles, replay, and memory-as-code.
+Enterprise-style machine learning infrastructure for reproducible, auditable, policy-driven execution.
 
-Focus areas:
-
-- Deterministic local execution
-- Evidence-backed automation
-- Policy-oriented workflows
-- Reproducible engineering artifacts
-- Agentic development infrastructure with operational constraints
-
-Repository: [grewanderer/animus_coder](https://github.com/grewanderer/animus_coder)
+**Engineering focus:** control plane / data plane separation, dataset versioning, code references, environment locks, execution policy, append-only audit, orchestration, and on-prem / private-cloud / air-gapped deployment models.
 
 ---
 
-## Systems I Build
+### [Agentic Engineering Core](https://github.com/grewanderer/animus_coder)
 
-### Backend & Platform Systems
+Policy-first engineering automation infrastructure focused on local execution, reproducibility, replay, proof bundles, and memory-as-code.
 
-- Backend services with explicit state machines and well-defined failure semantics
-- API platforms with stable contracts, compatibility boundaries, and clear service evolution
-- Distributed services that remain predictable across network, deployment, and runtime failures
-- Event-driven systems with auditability, observability, and operational recovery paths
-- Infrastructure where reproducibility and explainability are core design constraints
-
-### Embedded Linux & Hardware-Adjacent Systems
-
-- Custom Buildroot-based operating systems
-- Package integration and root filesystem composition
-- Firmware image assembly and reproducible delivery pipelines
-- Runtime validation on QEMU and physical hardware
-- Backend services running in constrained or hardware-adjacent environments
-- Command/control systems where visible behavior must match real runtime state
-
-### Reliability & Observability
-
-- Production diagnosis under real infrastructure constraints
-- Metrics, traces, structured logs, and release evidence
-- CI/CD gates that validate behavior rather than only syntax or parser support
-- Failure reporting that is deterministic, actionable, and tied to runtime truth
+**Engineering focus:** deterministic workflows, evidence-backed automation, local-first execution, policy boundaries, reproducible artifacts, and operationally constrained agentic development.
 
 ---
 
-## Core Stack
+## Technical Depth
 
-**Languages:** Go, Rust, Python  
-**Backend:** REST, gRPC, WebSockets, event-driven services, Clean Architecture, pragmatic DDD  
-**Data:** PostgreSQL, MySQL, SQLite, Redis, Kafka, RabbitMQ  
-**Platform:** Linux, Docker, Kubernetes, Helm, Kustomize, Buildroot, QEMU  
-**CI/CD:** GitHub Actions, GitLab CI, Jenkins, Zuul  
-**Observability:** Prometheus, Grafana, OpenTelemetry, ELK, structured logging  
-**Security:** TLS, DTLS, OIDC, JWT, policy enforcement, secure transport design  
-**ML Infrastructure:** PyTorch, ONNX, ONNX Runtime, data pipelines, experiment automation, evaluation workflows  
+### Backend & Distributed Systems
+
+- Go, Rust, Python
+- REST, gRPC, WebSockets
+- SOAP / WS-*, ONVIF, RTSP
+- API design, compatibility, service evolution
+- Event-driven architectures and message-driven systems
+- Explicit state machines and failure semantics
+- Clean Architecture and pragmatic DDD
+- Distributed systems with predictable operational behavior
+
+### Platform, Linux & Delivery
+
+- Linux production environments
+- Docker, Docker Compose, Kubernetes
+- Helm, Kustomize
+- GitHub Actions, GitLab CI, Jenkins, Zuul
+- Buildroot, QEMU, firmware images, rootfs composition
+- Hermetic and reproducible build pipelines
+- Release gates based on runtime evidence, not only static checks
+
+### Data, Observability & Reliability
+
+- PostgreSQL, MySQL, SQLite
+- Redis, Kafka, RabbitMQ
+- Prometheus, Grafana, OpenTelemetry
+- ELK stack, structured logging, tracing
+- Production diagnosis under real infrastructure and hardware constraints
+- Operational debugging, regression safety, and incident-oriented feedback loops
+
+### Security, Networking & ML Infrastructure
+
+- TLS, DTLS, secure transport design
+- Authentication, authorization, OIDC, JWT
+- Policy enforcement and controlled service exposure
+- ML data pipelines, experiment automation, evaluation workflows
+- PyTorch, ONNX, ONNX Runtime, inference-oriented backend design
 
 ---
 
-## Experience Summary
-
-- Senior-level backend and platform engineering across industrial, embedded, research, ML, and infrastructure-heavy systems
-- Production backend development in Go and Rust for systems with strict reliability and correctness requirements
-- Embedded Linux platform work involving Buildroot, firmware images, device integration, and hardware validation
-- Protocol-heavy integrations involving secure networking, video/security systems, device control, and external infrastructure
-- ML and data-processing infrastructure from ingestion and preprocessing to training, evaluation, and production-oriented integration
-- End-to-end ownership across architecture, implementation, testing, CI/CD, deployment, observability, and operational support
-
----
-
-## Selected Project Domains
+## System Domains I Have Worked On
 
 - Network Operating System and command conformance platform
 - Secure overlay networking and controlled service access
-- Enterprise ML infrastructure and reproducible experimentation
-- Embedded Linux NAS platform on custom hardware
-- Access control and video/security protocol integration
-- Smart PDU backend and device control systems
-- Audio classification and filtering pipelines
+- Reproducible ML infrastructure and experiment orchestration
+- Embedded Linux platforms on constrained/custom hardware
+- NAS, access-control, video/security, and device-control systems
+- Smart PDU control and telemetry backends
+- Audio classification and signal-processing pipelines
 - Computer vision inference infrastructure
 
 ---
 
-## Engineering Principles
+## How I Design Systems
+
+I prefer systems that are explicit, testable, observable, and boring in production.
 
 - Correctness over cleverness
 - Determinism over hidden state
 - Operational clarity over theoretical elegance
 - Explicit contracts over implicit behavior
 - Reproducibility over one-off fixes
-- Evidence-backed releases over unsupported claims
-- Long-term maintainability over short-term delivery optics
+- Release evidence over unsupported claims
+- Long-term maintainability over short-term optics
+
+---
+
+## Good Fit
+
+I am a strong fit for teams building backend, platform, infrastructure, embedded Linux, secure networking, reliability, or ML infrastructure products where the work requires both implementation depth and architectural ownership.
+
+Typical roles and searches where my profile is relevant:
+
+- Senior Backend Engineer
+- Platform Engineer
+- Systems Engineer
+- Infrastructure Engineer
+- Go Backend Engineer
+- Rust Systems Engineer
+- Embedded Linux Engineer
+- Reliability Engineer
+- ML Infrastructure Engineer
 
 ---
 
 <p align="center">
   <sub>
-    I build systems that remain correct, observable, reproducible, and operable after the first implementation is long gone.
+    I build systems that remain correct, observable, reproducible, and operable long after the first implementation is shipped.
   </sub>
 </p>
