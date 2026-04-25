@@ -10,9 +10,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/grewanderer/animus-amity">Amity</a> ·
+  <a href="https://github.com/grewanderer/animus-link">Animus Link</a> ·
   <a href="https://github.com/AnimusHQ/mllaboratory">ML Infrastructure Laboratory</a> ·
-  <a href="https://github.com/grewanderer/animus_coder">Agentic Engineering Core</a> ·
-  <a href="https://github.com/grewanderer?tab=repositories">Repositories</a>
+  <a href="https://github.com/grewanderer/animus-datalab-sdk">DataLab SDK</a>
 </p>
 
 <p align="center">
@@ -51,7 +52,35 @@ I work best where product requirements meet runtime constraints: control planes,
 
 ---
 
-## Public Engineering Evidence
+## Selected Engineering Work
+
+### [Amity](https://github.com/grewanderer/animus-amity)
+
+Document-governed AI software delivery pipeline for controlled, evidence-gated software implementation.
+
+Built around:
+
+- launch documentation as the top-level authority for requirements and architecture
+- Architect / Verifier / Executor role separation
+- deterministic quorum and dual-approval protocols
+- hash-locked task packs and bounded execution scopes
+- vector retrieval with provenance rather than retrieval-as-truth
+- durable recovery from rate limits, overload, worker crashes, and partial failures
+- typed artifacts for designs, reviews, execution evidence, and completion certificates
+
+### [Animus Link](https://github.com/grewanderer/animus-link)
+
+Secure connectivity and delivery substrate separating cryptographic identity, transport, and delivery semantics.
+
+Built around:
+
+- relay-assisted secure connectivity across NATs, firewalls, and untrusted networks
+- end-to-end encrypted sessions where relays do not decrypt payloads
+- self-certifying identity and transport-independent session semantics
+- explicit delivery contracts instead of implicit online/offline behavior
+- invite-first private discovery and controlled service exposure
+- protocol, identity, session, relay, observability, and conformance boundaries
+- truthful capability reporting through specs, vectors, and runtime validation
 
 ### [ML Infrastructure Laboratory](https://github.com/AnimusHQ/mllaboratory)
 
@@ -67,18 +96,19 @@ Built around:
 - OIDC, RBAC, deny-by-default authorization, and internal service boundaries
 - CI, security, supply-chain, deployment, and operations documentation
 
-### [Agentic Engineering Core](https://github.com/grewanderer/animus_coder)
+### [Animus DataLab SDK](https://github.com/grewanderer/animus-datalab-sdk)
 
-Policy-first agentic coding infrastructure for local execution, guarded automation, proof bundles, replay, and memory-as-code.
+Python SDK for CI systems and ML pipelines that publish metadata and execution evidence to Animus DataPilot.
 
 Built around:
 
-- k3s-based isolated execution profile
-- default-deny egress model for runner jobs
-- Git access through scoped internal proxying instead of uncontrolled direct transport
-- EventLog, Proof Bundle, Replay, and hash-checked execution evidence
-- memory-as-code with guarded writes and provenance
-- Helm-oriented deployment and runtime schema validation
+- CI-driven experiment registration
+- immutable experiment runs and dataset-version binding
+- signed CI image attestation through git commit and image digest metadata
+- live telemetry from training containers
+- artifact registration from training and evaluation jobs
+- deterministic identifiers and append-only telemetry
+- on-prem, air-gapped, and non-interactive usage models
 
 ---
 
@@ -103,7 +133,9 @@ I have worked across systems where software quality is measured by runtime behav
 - Linux-based embedded platforms and firmware delivery pipelines
 - network operating system and command-conformance tooling
 - secure overlay networking and controlled service access
+- document-governed AI software delivery and evidence-gated execution
 - Kubernetes-backed ML infrastructure and experiment orchestration
+- CI-driven ML metadata, telemetry, attestation, and artifact registration
 - NAS, access-control, video/security, power-control, and device-management systems
 - audio classification and signal-processing pipelines
 - computer-vision inference infrastructure
@@ -124,7 +156,7 @@ I have worked across systems where software quality is measured by runtime behav
 
 ## Fit
 
-Strong match for teams building backend, platform, infrastructure, embedded Linux, reliability, secure networking, or ML infrastructure systems where implementation depth and architectural ownership are both required.
+Strong match for teams building backend, platform, infrastructure, embedded Linux, reliability, secure networking, AI delivery systems, or ML infrastructure products where implementation depth and architectural ownership are both required.
 
 Relevant roles: **Senior Backend Engineer**, **Go Backend Engineer**, **Platform Engineer**, **Infrastructure Engineer**, **Systems Engineer**, **Rust Systems Engineer**, **Embedded Linux Engineer**, **Reliability Engineer**, **ML Infrastructure Engineer**, **Secure Infrastructure Engineer**.
 
