@@ -30,59 +30,59 @@
 
 ## Profile
 
-I build backend and platform systems where correctness, reproducibility, observability, and operational control are design requirements.
+I design and implement backend, platform, and embedded Linux systems where correctness, reproducibility, observability, and operational control are core requirements.
 
 My strongest axis is **Go backend engineering** for distributed, integration-heavy, and hardware-adjacent systems. I use **Rust** for systems and protocol-oriented components, and **Python** for automation, ML infrastructure, evaluation workflows, and operational tooling.
 
-I am most useful where product requirements meet runtime constraints: control planes, execution systems, Linux platforms, deployment pipelines, hardware-adjacent services, secure infrastructure, and production failure modes.
+I work best where product requirements meet runtime constraints: control planes, execution systems, Linux platforms, deployment pipelines, hardware-adjacent services, secure infrastructure, and production failure modes.
 
 ---
 
 ## Engineering Surface
 
-| Surface | What I build and reason about |
-|---|---|
-| **Backend systems** | API platforms, service boundaries, explicit state machines, idempotent workflows, compatibility, failure semantics |
-| **Platform engineering** | Linux runtime environments, reproducible builds, deployment automation, CI/CD gates, release evidence, operational ownership |
-| **Embedded Linux** | Buildroot-based systems, root filesystem composition, firmware artifacts, QEMU validation, constrained-device services |
-| **Reliability** | observability-first design, structured diagnostics, deterministic failure reporting, regression safety, incident feedback loops |
-| **Security & networking** | secure transport, authentication, authorization, policy enforcement, deny-by-default exposure, protocol-heavy integrations |
-| **ML infrastructure** | reproducible runs, dataset/artifact versioning, metadata truth, execution evidence, evaluation automation, controlled workloads |
+| Area | What I build | Technical focus |
+|---|---|---|
+| **Backend systems** | API platforms, service boundaries, distributed workflows | Go, Rust, REST, gRPC, WebSockets, state machines, compatibility, failure semantics |
+| **Platform engineering** | runtime platforms, CI/CD, deployment systems, release gates | Linux, Docker, Kubernetes, Helm, GitHub Actions, GitLab CI, Jenkins, Zuul |
+| **Embedded Linux** | custom Linux images, device services, firmware delivery | Buildroot, QEMU, rootfs composition, package integration, hardware validation |
+| **Reliability** | observable and diagnosable production systems | Prometheus, Grafana, OpenTelemetry, ELK, structured logs, metrics, traces |
+| **Security & networking** | controlled service exposure and secure integration paths | TLS, DTLS, OIDC, JWT, RBAC, ACLs, policy enforcement, protocol-heavy systems |
+| **ML infrastructure** | reproducible execution and auditable experiment platforms | Kubernetes, PostgreSQL, S3-compatible storage, PyTorch, ONNX, ONNX Runtime |
 
 ---
 
-## Public Work
+## Public Engineering Evidence
 
 ### [ML Infrastructure Laboratory](https://github.com/AnimusHQ/mllaboratory)
 
 Kubernetes-backed ML infrastructure for reproducible and auditable machine-learning workflows.
 
-Engineering signal:
+Built around:
 
 - Go service architecture with explicit **Control Plane / Data Plane** separation
 - PostgreSQL-backed metadata, policy, audit, execution evidence, and integrity fields
-- Kubernetes execution model for isolated workloads
+- Kubernetes execution for isolated workloads
 - S3-compatible artifact and object-storage mediation
 - Helm-based deployment model
 - OIDC, RBAC, deny-by-default authorization, and internal service boundaries
-- CI, security, supply-chain, deployment, and operations documentation discipline
+- CI, security, supply-chain, deployment, and operations documentation
 
 ### [Agentic Engineering Core](https://github.com/grewanderer/animus_coder)
 
-Policy-first agentic coding infrastructure built around local execution, guarded automation, proof bundles, replay, and memory-as-code.
+Policy-first agentic coding infrastructure for local execution, guarded automation, proof bundles, replay, and memory-as-code.
 
-Engineering signal:
+Built around:
 
 - k3s-based isolated execution profile
 - default-deny egress model for runner jobs
 - Git access through scoped internal proxying instead of uncontrolled direct transport
-- append-style EventLog, Proof Bundle, Replay, and hash-checked execution evidence
+- EventLog, Proof Bundle, Replay, and hash-checked execution evidence
 - memory-as-code with guarded writes and provenance
 - Helm-oriented deployment and runtime schema validation
 
 ---
 
-## Technical Stack
+## Technical Depth
 
 **Languages:** Go, Rust, Python  
 **Backend:** REST, gRPC, WebSockets, event-driven systems, message-driven systems, Clean Architecture, pragmatic DDD  
@@ -95,7 +95,9 @@ Engineering signal:
 
 ---
 
-## Systems and Domains
+## System Domains
+
+I have worked across systems where software quality is measured by runtime behavior, not repository appearance alone:
 
 - backend platforms for distributed and integration-heavy systems
 - Linux-based embedded platforms and firmware delivery pipelines
@@ -108,12 +110,12 @@ Engineering signal:
 
 ---
 
-## Engineering Principles
+## Engineering Standards
 
 - Runtime behavior matters more than repository aesthetics.
 - Parser support is not feature support; runtime effect and readback matter.
-- A control plane should own truth; execution environments should report evidence.
-- A production deployment needs rollback, observability, state ownership, and failure semantics.
+- Control planes should own truth; execution environments should report evidence.
+- Production systems need rollback, observability, state ownership, and defined failure semantics.
 - Logs, metrics, traces, and audit records are design surfaces.
 - Reproducibility is a debugging and accountability mechanism, not a tooling preference.
 - Security boundaries should be explicit enough to test and boring enough to operate.
