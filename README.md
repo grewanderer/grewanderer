@@ -2,65 +2,49 @@
 
 <p align="center">
   <strong>Senior Backend / Platform Engineer</strong><br/>
-  Go · Rust · Python · Distributed Systems · Embedded Linux · Kubernetes · Reliability · Secure Infrastructure · ML Infrastructure
+  Go · Rust · Python · Distributed Systems · Kubernetes · Linux · Reliability · Secure Infrastructure · ML Infrastructure
 </p>
 
 <p align="center">
-  <a href="mailto:rewanderer@proton.me">rewanderer@proton.me</a> · Remote · Backend · Platform · Systems · Infrastructure
-</p>
-
-<p align="center">
-  <a href="https://github.com/grewanderer/animus-amity">Amity</a> ·
-  <a href="https://github.com/grewanderer/animus-link">Animus Link</a> ·
-  <a href="https://github.com/AnimusHQ/mllaboratory">ML Infrastructure Laboratory</a> ·
+  <a href="mailto:rewanderer@proton.me">Email</a>
+  ·
+  <a href="https://rewanderer.proton.me">Website</a>
+  ·
+  <a href="https://github.com/grewanderer/animus-amity">Amity</a>
+  ·
+  <a href="https://github.com/grewanderer/animus-link">Animus Link</a>
+  ·
+  <a href="https://github.com/AnimusHQ/mllaboratory">ML Infrastructure Laboratory</a>
+  ·
   <a href="https://github.com/grewanderer/animus-datalab-sdk">DataLab SDK</a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Go-backend%20systems-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go backend systems" />
-  <img src="https://img.shields.io/badge/Rust-systems%20engineering-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust systems engineering" />
+  <img src="https://img.shields.io/badge/Go-backend-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go backend" />
+  <img src="https://img.shields.io/badge/Rust-systems-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust systems" />
   <img src="https://img.shields.io/badge/Python-automation%20%7C%20ML%20infra-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python automation and ML infrastructure" />
-  <img src="https://img.shields.io/badge/Linux-platform%20engineering-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux platform engineering" />
-  <img src="https://img.shields.io/badge/Kubernetes-execution%20platforms-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes execution platforms" />
-  <img src="https://img.shields.io/badge/Buildroot-embedded%20Linux-2A9D8F?style=flat-square&logo=linux&logoColor=white" alt="Buildroot embedded Linux" />
-  <img src="https://img.shields.io/badge/PostgreSQL-state%20%7C%20audit-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL state and audit" />
+  <img src="https://img.shields.io/badge/Kubernetes-platform-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes platform" />
   <img src="https://img.shields.io/badge/OpenTelemetry-observability-000000?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry observability" />
 </p>
 
 ---
 
-## Profile
+## Focus
 
-I design and implement backend, platform, and embedded Linux systems where correctness, reproducibility, observability, and operational control are core requirements.
+I build backend and platform systems where correctness, reliability, observability, and operational control are part of the architecture rather than afterthoughts.
 
-My strongest axis is **Go backend engineering** for distributed, integration-heavy, and hardware-adjacent systems. I use **Rust** for systems and protocol-oriented components, and **Python** for automation, ML infrastructure, evaluation workflows, and operational tooling.
+My strongest axis is **Go backend engineering** for distributed, integration-heavy, and infrastructure-adjacent systems. I use **Rust** for systems and protocol-oriented components, and **Python** for automation, ML infrastructure, evaluation workflows, and operational tooling.
 
-I work best where product requirements meet runtime constraints: control planes, execution systems, Linux platforms, deployment pipelines, hardware-adjacent services, secure infrastructure, and production failure modes.
-
----
-
-## Engineering Surface
-
-| Area | What I build | Technical focus |
-|---|---|---|
-| **Backend systems** | API platforms, service boundaries, distributed workflows | Go, Rust, REST, gRPC, WebSockets, state machines, compatibility, failure semantics |
-| **Platform engineering** | runtime platforms, CI/CD, deployment systems, release gates | Linux, Docker, Kubernetes, Helm, GitHub Actions, GitLab CI, Jenkins, Zuul |
-| **Embedded Linux** | custom Linux images, device services, firmware delivery | Buildroot, QEMU, rootfs composition, package integration, hardware validation |
-| **Reliability** | observable and diagnosable production systems | Prometheus, Grafana, OpenTelemetry, ELK, structured logs, metrics, traces |
-| **Security & networking** | controlled service exposure and secure integration paths | TLS, DTLS, OIDC, JWT, RBAC, ACLs, policy enforcement, protocol-heavy systems |
-| **ML infrastructure** | reproducible execution and auditable experiment platforms | Kubernetes, PostgreSQL, S3-compatible storage, PyTorch, ONNX, ONNX Runtime |
+I work best on systems with real runtime constraints: control planes, execution platforms, Linux-based infrastructure, secure service exposure, reproducible delivery, hardware-adjacent services, and production failure modes.
 
 ---
 
-## Selected Engineering Work
+## Selected Work
 
 ### [Amity](https://github.com/grewanderer/animus-amity)
 
-Document-governed AI software delivery pipeline for controlled, evidence-gated software implementation.
+Document-governed AI software delivery pipeline for controlled, evidence-gated implementation.
 
-Built around:
-
-- launch documentation as the top-level authority for requirements and architecture
 - Architect / Verifier / Executor role separation
 - deterministic quorum and dual-approval protocols
 - hash-locked task packs and bounded execution scopes
@@ -72,23 +56,18 @@ Built around:
 
 Secure connectivity and delivery substrate separating cryptographic identity, transport, and delivery semantics.
 
-Built around:
-
 - relay-assisted secure connectivity across NATs, firewalls, and untrusted networks
 - end-to-end encrypted sessions where relays do not decrypt payloads
 - self-certifying identity and transport-independent session semantics
 - explicit delivery contracts instead of implicit online/offline behavior
 - invite-first private discovery and controlled service exposure
 - protocol, identity, session, relay, observability, and conformance boundaries
-- truthful capability reporting through specs, vectors, and runtime validation
 
 ### [ML Infrastructure Laboratory](https://github.com/AnimusHQ/mllaboratory)
 
 Kubernetes-backed ML infrastructure for reproducible and auditable machine-learning workflows.
 
-Built around:
-
-- Go service architecture with explicit **Control Plane / Data Plane** separation
+- Go service architecture with explicit Control Plane / Data Plane separation
 - PostgreSQL-backed metadata, policy, audit, execution evidence, and integrity fields
 - Kubernetes execution for isolated workloads
 - S3-compatible artifact and object-storage mediation
@@ -100,8 +79,6 @@ Built around:
 
 Python SDK for CI systems and ML pipelines that publish metadata and execution evidence to Animus DataPilot.
 
-Built around:
-
 - CI-driven experiment registration
 - immutable experiment runs and dataset-version binding
 - signed CI image attestation through git commit and image digest metadata
@@ -112,33 +89,31 @@ Built around:
 
 ---
 
-## Technical Depth
+## Engineering Surface
 
-**Languages:** Go, Rust, Python  
-**Backend:** REST, gRPC, WebSockets, event-driven systems, message-driven systems, Clean Architecture, pragmatic DDD  
-**Data:** PostgreSQL, MySQL, SQLite, Redis, Kafka, RabbitMQ, S3-compatible object storage  
-**Platform:** Linux, Docker, Docker Compose, Kubernetes, Helm, Kustomize, Buildroot, QEMU  
-**Delivery:** GitHub Actions, GitLab CI, Jenkins, Zuul, reproducible builds, deployment validation, release gates  
-**Observability:** Prometheus, Grafana, OpenTelemetry, ELK, structured logs, metrics, traces  
-**Security:** TLS, DTLS, OIDC, JWT, RBAC, ACLs, policy enforcement, controlled service exposure  
-**ML Infrastructure:** PyTorch, ONNX, ONNX Runtime, data pipelines, experiment automation, evaluation workflows  
+| Area | What I build | Technical focus |
+|---|---|---|
+| Backend systems | API platforms, service boundaries, distributed workflows | Go, Rust, REST, gRPC, WebSockets, state machines, failure semantics |
+| Platform engineering | runtime platforms, CI/CD, deployment systems, release gates | Linux, Docker, Kubernetes, Helm, GitHub Actions, GitLab CI, Jenkins, Zuul |
+| Embedded Linux | custom Linux images, device services, firmware delivery | Buildroot, QEMU, rootfs composition, package integration, hardware validation |
+| Reliability | observable and diagnosable production systems | Prometheus, Grafana, OpenTelemetry, ELK, structured logs, metrics, traces |
+| Security & networking | controlled service exposure and secure integration paths | TLS, DTLS, OIDC, JWT, RBAC, ACLs, policy enforcement |
+| ML infrastructure | reproducible execution and auditable experiment platforms | Kubernetes, PostgreSQL, S3-compatible storage, PyTorch, ONNX, ONNX Runtime |
 
 ---
 
-## System Domains
+## Technical Stack
 
-I have worked across systems where software quality is measured by runtime behavior, not repository appearance alone:
-
-- backend platforms for distributed and integration-heavy systems
-- Linux-based embedded platforms and firmware delivery pipelines
-- network operating system and command-conformance tooling
-- secure overlay networking and controlled service access
-- document-governed AI software delivery and evidence-gated execution
-- Kubernetes-backed ML infrastructure and experiment orchestration
-- CI-driven ML metadata, telemetry, attestation, and artifact registration
-- NAS, access-control, video/security, power-control, and device-management systems
-- audio classification and signal-processing pipelines
-- computer-vision inference infrastructure
+```text
+Languages:        Go, Rust, Python
+Backend:          REST, gRPC, WebSockets, event-driven systems, message-driven systems
+Data:             PostgreSQL, MySQL, SQLite, Redis, Kafka, RabbitMQ, S3-compatible storage
+Platform:         Linux, Docker, Docker Compose, Kubernetes, Helm, Kustomize, Buildroot, QEMU
+Delivery:         GitHub Actions, GitLab CI, Jenkins, Zuul, reproducible builds, release gates
+Observability:    Prometheus, Grafana, OpenTelemetry, ELK, structured logs, metrics, traces
+Security:         TLS, DTLS, OIDC, JWT, RBAC, ACLs, policy enforcement
+ML Infrastructure: PyTorch, ONNX, ONNX Runtime, data pipelines, experiment automation
+```
 
 ---
 
@@ -163,7 +138,5 @@ Relevant roles: **Senior Backend Engineer**, **Go Backend Engineer**, **Platform
 ---
 
 <p align="center">
-  <sub>
-    I build systems that stay correct, observable, reproducible, and operable after the first implementation has shipped.
-  </sub>
+  <sub>I build systems that stay correct, observable, reproducible, and operable after the first implementation has shipped.</sub>
 </p>
