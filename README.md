@@ -8,7 +8,7 @@
 <p align="center">
   <a href="mailto:rewanderer@proton.me">Email</a>
   ·
-  <a href="https://rewanderer.proton.me">Website</a>
+  <a href="https://kapakka.org">Website</a>
   ·
   <a href="https://github.com/grewanderer/animus-amity">Amity</a>
   ·
