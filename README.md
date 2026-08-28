@@ -1,4 +1,4 @@
-<h1 align="center">Grewanderer</h1>
+<h1 align="center">Maksim Sotnikov · Grewanderer</h1>
 
 <p align="center">
   <strong>Senior Backend / Platform Engineer</strong><br/>
@@ -6,15 +6,15 @@
 </p>
 
 <p align="center">
-  <a href="mailto:rewanderer@proton.me">Email</a>
-  ·
   <a href="https://kapakka.org">Website</a>
   ·
-  <a href="https://github.com/grewanderer/animus-amity">Amity</a>
+  <a href="https://www.linkedin.com/in/grewanderer">LinkedIn</a>
   ·
-  <a href="https://github.com/grewanderer/animus-link">Animus Link</a>
+  <a href="https://github.com/AnimusHQ">Animus</a>
   ·
-  <a href="https://github.com/AnimusHQ/mllaboratory">ML Infrastructure Laboratory</a>
+  <a href="https://github.com/AnimusHQ/link">Animus Link</a>
+  ·
+  <a href="https://github.com/AnimusHQ/mllaboratory">Animus Datalab</a>
   ·
   <a href="https://github.com/grewanderer/animus-datalab-sdk">DataLab SDK</a>
 </p>
@@ -41,7 +41,7 @@ I work best on systems with real runtime constraints: control planes, execution 
 
 ## Selected Work
 
-### [Amity](https://github.com/grewanderer/animus-amity)
+### Amity
 
 Document-governed AI software delivery pipeline for controlled, evidence-gated implementation.
 
@@ -52,18 +52,18 @@ Document-governed AI software delivery pipeline for controlled, evidence-gated i
 - durable recovery from rate limits, overload, worker crashes, and partial failures
 - typed artifacts for designs, reviews, execution evidence, and completion certificates
 
-### [Animus Link](https://github.com/grewanderer/animus-link)
+### [Animus Link](https://github.com/AnimusHQ/link)
 
-Secure connectivity and delivery substrate separating cryptographic identity, transport, and delivery semantics.
+Secure connectivity protocol separating cryptographic identity, transport, session semantics, relay behavior, and controlled service exposure.
 
 - relay-assisted secure connectivity across NATs, firewalls, and untrusted networks
 - end-to-end encrypted sessions where relays do not decrypt payloads
-- self-certifying identity and transport-independent session semantics
-- explicit delivery contracts instead of implicit online/offline behavior
-- invite-first private discovery and controlled service exposure
-- protocol, identity, session, relay, observability, and conformance boundaries
+- self-certifying cryptographic identity and explicit session semantics
+- invite-scoped private discovery and deny-by-default service exposure
+- anti-replay, conformance, security, observability, and production-readiness boundaries
+- pre-1.0, specification-track development with explicit maturity and limitations
 
-### [ML Infrastructure Laboratory](https://github.com/AnimusHQ/mllaboratory)
+### [Animus Datalab](https://github.com/AnimusHQ/mllaboratory)
 
 Kubernetes-backed ML infrastructure for reproducible and auditable machine-learning workflows.
 
@@ -77,14 +77,14 @@ Kubernetes-backed ML infrastructure for reproducible and auditable machine-learn
 
 ### [Animus DataLab SDK](https://github.com/grewanderer/animus-datalab-sdk)
 
-Python SDK for CI systems and ML pipelines that publish metadata and execution evidence to Animus DataPilot.
+Typed Python SDK for CI systems and ML pipelines that publish metadata and execution evidence to Animus DataPilot.
 
-- CI-driven experiment registration
+- zero runtime dependencies by default
+- CI-driven experiment registration and provenance
 - immutable experiment runs and dataset-version binding
-- signed CI image attestation through git commit and image digest metadata
-- live telemetry from training containers
-- artifact registration from training and evaluation jobs
-- deterministic identifiers and append-only telemetry
+- integrity-aware streaming artifact I/O
+- live non-blocking telemetry from training containers
+- predictable failure semantics and typed distribution
 - on-prem, air-gapped, and non-interactive usage models
 
 ---
@@ -105,13 +105,13 @@ Python SDK for CI systems and ML pipelines that publish metadata and execution e
 ## Technical Stack
 
 ```text
-Languages:        Go, Rust, Python
-Backend:          REST, gRPC, WebSockets, event-driven systems, message-driven systems
-Data:             PostgreSQL, MySQL, SQLite, Redis, Kafka, RabbitMQ, S3-compatible storage
-Platform:         Linux, Docker, Docker Compose, Kubernetes, Helm, Kustomize, Buildroot, QEMU
-Delivery:         GitHub Actions, GitLab CI, Jenkins, Zuul, reproducible builds, release gates
-Observability:    Prometheus, Grafana, OpenTelemetry, ELK, structured logs, metrics, traces
-Security:         TLS, DTLS, OIDC, JWT, RBAC, ACLs, policy enforcement
+Languages:         Go, Rust, Python
+Backend:           REST, gRPC, WebSockets, event-driven systems, message-driven systems
+Data:              PostgreSQL, MySQL, SQLite, Redis, Kafka, RabbitMQ, S3-compatible storage
+Platform:          Linux, Docker, Docker Compose, Kubernetes, Helm, Kustomize, Buildroot, QEMU
+Delivery:          GitHub Actions, GitLab CI, Jenkins, Zuul, reproducible builds, release gates
+Observability:     Prometheus, Grafana, OpenTelemetry, ELK, structured logs, metrics, traces
+Security:          TLS, DTLS, OIDC, JWT, RBAC, ACLs, policy enforcement
 ML Infrastructure: PyTorch, ONNX, ONNX Runtime, data pipelines, experiment automation
 ```
 
