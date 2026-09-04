@@ -68,15 +68,6 @@ Managed network-access engineering plus a separate pre-1.0 secure-connectivity r
 - separate Rust protocol R&D around self-certifying identity, encrypted sessions, relay-assisted transport, deterministic encoding, anti-replay/rekey state machines and conformance vectors
 - research is explicitly not represented as a production protocol release
 
-### Valli / command-conformance engineering
-
-Rust control-plane and command-conformance work validated against reproducible embedded Linux images.
-
-- typed command models and deterministic validation
-- parser, runtime-effect, persistence and readback verification
-- Buildroot/QEMU-based end-to-end firmware validation
-- failure diagnosis across application, Linux image, protocol and hardware-adjacent boundaries
-
 ## Engineering surface
 
 | Area | What I build | Technical focus |
