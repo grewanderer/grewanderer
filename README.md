@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <strong>Current:</strong> Moscow, Russia → relocating to Batumi, Georgia in September 2026<br/>
+  <strong>Current:</strong> Batumi, Georgia<br/>
   Registered Georgian Individual Entrepreneur · available for interviews now
 </p>
 
