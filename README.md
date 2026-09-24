@@ -1,4 +1,4 @@
-<h1 align="center">Maksim Sotnikov · Grewanderer</h1>
+<h1 align="center">Grewanderer</h1>
 
 <p align="center">
   <strong>Senior / Lead Systems & Platform Engineer</strong><br/>
