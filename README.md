@@ -90,8 +90,6 @@ Managed network-access engineering plus a separate pre-1.0 secure-connectivity r
 
 ## Availability
 
-I am currently in Moscow and relocating to **Batumi, Georgia in September 2026**. My **Georgian Individual Entrepreneur is already registered**.
-
 - available for interviews now;
 - international remote B2B contracting from Georgia after relocation;
 - open to senior/lead systems, platform, backend, distributed-systems, Rust, protocol and secure-infrastructure roles;
