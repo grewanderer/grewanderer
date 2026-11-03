@@ -1,104 +1,65 @@
-<h1 align="center">Grewanderer</h1>
+# Maksim Sotnikov
 
-<p align="center">
-  <strong>Senior / Lead Systems & Platform Engineer</strong><br/>
-  Go · Rust · Distributed Systems · Secure Networking · Control Planes · Embedded Linux
-</p>
+**Full-Stack & Infrastructure Engineer**
 
-<p align="center">
-  <strong>Current:</strong> Batumi, Georgia<br/>
-  Registered Georgian Individual Entrepreneur · available for interviews now
-</p>
-
-<p align="center">
-  <a href="https://kapakka.org">Portfolio</a>
-  ·
-  <a href="https://www.linkedin.com/in/grewanderer">LinkedIn</a>
-  ·
-  <a href="https://github.com/Animus-OSC">Animus OSC</a>
-  ·
-  <a href="https://github.com/Animus-OSC/animus-datalab-sdk">DataLab SDK</a>
-  ·
-  <a href="https://github.com/AnimusHQ/mllaboratory">DataLab public snapshot</a>
-</p>
+Batumi, Georgia | [Email](mailto:rewanderer@proton.me) | [GitHub](https://github.com/grewanderer) | [LinkedIn](https://linkedin.com/in/grewanderer)
 
 ---
 
-## Engineering focus
+## Professional Summary
 
-I build distributed and security-sensitive systems where correctness has to survive production, partial failure, upgrades, and operator error.
+Systems and infrastructure engineer building Go/Rust backend services, full-stack applications, and resilient CI/CD for distributed, hardware-integrated systems. Experienced with REST/gRPC interfaces, embedded Linux integration, observability, release validation, and failure analysis across software, networking, and device boundaries. Available for remote B2B contracts as a registered sole proprietor in Georgia.
 
-My strongest axis is **Go and Rust** across distributed control planes, protocol-heavy services, secure networking, Linux infrastructure, embedded systems, and reliability. I work across the full path: architecture and specifications, implementation, negative and conformance testing, CI/release gates, observability, production diagnosis, recovery, and operational documentation.
+## Technical Skills
 
-My current professional work includes Go/Rust software for distributed industrial and communications systems and a Rust network OS / command-conformance platform validated end to end with reproducible Buildroot/QEMU firmware images.
+- **Languages & Frontend:** Go, Rust, Python, SQL, Shell; TypeScript, JavaScript, React, HTML/CSS, Tailwind CSS.
+- **Infrastructure & CI/CD:** Linux, Docker, Kubernetes, Helm, GitHub Actions, GitLab CI, Jenkins, Buildroot, QEMU.
+- **Data & Observability:** PostgreSQL, Redis, Prometheus, Grafana, OpenTelemetry.
+- **APIs & Networking:** REST, gRPC, OpenAPI, TCP/IP, TLS/DTLS, ONVIF, RTSP, Noise Protocol Framework.
+- **Identity, Payments & P2P:** OAuth 2.0, OIDC, SAML 2.0, HOTP/TOTP, Keycloak; ISO 8583, ISO 20022, EMV 3DS2; libp2p, Kademlia DHT, GossipSub.
+- **Quality & Reliability:** Unit/integration/E2E testing, conformance testing, reproducible CI, release gates.
 
-In parallel I build **Animus**, a systems portfolio organized around explicit authority, visible failure, bounded execution, security boundaries, and evidence-driven engineering.
+## Professional Experience
 
-## Evidence you can inspect
+### Omsk Research Institute of Instrument Engineering (A. S. Popov Radio Plant)
 
-| System | Public boundary | What it demonstrates |
-|---|---|---|
-| [Animus DataLab SDK](https://github.com/Animus-OSC/animus-datalab-sdk) | Public, Apache-2.0 | Typed Python SDK, zero runtime dependencies, integrity-aware streaming I/O, bounded telemetry, signed CI provenance, compatibility and release discipline |
-| [Animus DataLab public snapshot](https://github.com/AnimusHQ/mllaboratory) | Public open-core snapshot | Go services, Control Plane / Data Plane separation, PostgreSQL-authoritative state, Kubernetes execution, Helm, audit, RBAC and operational boundaries |
-| [Animus Link](https://kapakka.org/link/) | Public product surface; implementation not published here | Go/PostgreSQL control-plane engineering, multi-node execution, lifecycle reconciliation, usage/health/audit and failure visibility |
-| [Link protocol research](https://kapakka.org/systems/) | Pre-1.0 research; private implementation | Rust protocol design, cryptographic identity/session concepts, deterministic wire formats, anti-replay/rekey state machines and conformance methodology |
-| Professional systems work | Employer/private code | Distributed/device-facing Go/Rust services, embedded Linux integration, Buildroot/QEMU validation, networking, observability and production diagnosis |
+**Lead Software Engineer | Oct 2025 - Oct 2026**
 
-I deliberately distinguish **public evidence**, **live product behavior**, **private professional work**, and **pre-release R&D** instead of presenting every repository as production-ready.
+- Engineered Go/Rust backend and platform services for distributed industrial systems; defined REST APIs and service contracts across embedded devices and network components.
+- Implemented resilient service behavior with explicit timeouts, retries, error handling, and diagnosable failures under unreliable hardware and external dependencies.
+- Built target-hardware CI/CD and reproducible end-to-end regressions; wrote unit/integration tests and validated Rust network/firmware components using Buildroot and QEMU.
 
-## Selected systems work
+### JSC Research & Production Center ELVEES
 
-### Animus DataLab
+**Software Engineer / Backend Developer | Oct 2023 - Oct 2025**
 
-Governed ML infrastructure for reproducible and auditable machine-learning workflows.
+- Developed Go backend services and REST/gRPC APIs for access-control systems and intelligent power distribution units (PDUs), including device state and command validation.
+- Integrated ONVIF/RTSP and secure transport workflows with robust handling of transport failures, timeouts, and unstable external dependencies.
+- Integrated services into embedded Linux images and firmware delivery; built Jenkins/GitLab CI pipelines and improved logging, metrics, and production diagnostics.
 
-- Go services with explicit Control Plane / Data Plane separation
-- PostgreSQL-backed authoritative metadata, policy, lineage, audit, and execution evidence
-- Kubernetes-backed isolated workload execution
-- S3-compatible artifact mediation and integrity metadata
-- OIDC, RBAC, deny-by-default service boundaries, Helm deployment, and operational gates
-- public integration surface: [Animus DataLab SDK](https://github.com/Animus-OSC/animus-datalab-sdk)
+### Skolkovo Institute of Science and Technology (Skoltech)
 
-### Animus Link
+**Software Engineer (Part-time) | Aug 2024 - Jun 2025**
 
-Managed network-access engineering plus a separate pre-1.0 secure-connectivity research track.
+- Developed Go/Python backend components and end-to-end audio-classification pipelines covering preprocessing, experiment execution, evaluation, and artifact collection.
+- Automated ML workflows and service integrations to support reproducible experiments and reduce manual reruns.
 
-- production control-plane work in Go/PostgreSQL with explicit lifecycle and failure states
-- multi-node execution, health, usage, quota, audit, backup/restore and release evidence
-- separate Rust protocol R&D around self-certifying identity, encrypted sessions, relay-assisted transport, deterministic encoding, anti-replay/rekey state machines and conformance vectors
-- research is explicitly not represented as a production protocol release
+## Projects & R&D
 
-## Engineering surface
+- **Animus System & Link Framework (2026 - Present):** Designed MCP-based integration infrastructure for Animus subsystems, including ML Datalab; developed self-certifying identity mechanisms and conformance testing for secure Animus Link sessions.
+- **Animus Platform:** Built full-stack architecture, interactive moodboard interfaces, and D&D-inspired backend mechanics.
+- **Hardware & AI Infrastructure R&D:** Configured and stress-tested multi-GPU compute environments for AI workloads.
 
-| Area | What I build | Technical focus |
-|---|---|---|
-| Distributed systems | control planes, stateful workflows, service boundaries | Go, Rust, PostgreSQL, gRPC, state machines, failure semantics |
-| Systems & protocols | secure connectivity, protocol runtimes, conformance | Rust, TCP/IP, TLS/DTLS, Noise/X25519 concepts, Ed25519, AEAD |
-| Platform engineering | runtime platforms, delivery systems, release gates | Linux, Docker, Kubernetes, Helm, GitHub Actions, GitLab CI, Jenkins |
-| Embedded Linux | device services, firmware validation, hardware-adjacent software | Buildroot, QEMU, rootfs/package integration, runtime-effect validation |
-| Reliability | observable and diagnosable production systems | Prometheus, Grafana, OpenTelemetry, structured logs, metrics, traces |
-| ML infrastructure | governed execution and reproducible experiment platforms | Kubernetes, PostgreSQL, S3-compatible storage, Python, CI integration |
+## Selected Code Samples
 
-## Production standards
+- **Go - Animus Datalab:** [Data Plane runtime (`runtime.go`)](https://github.com/AnimusHQ/mllaboratory/blob/main/closed/dataplane/runtime.go)
+- **Rust - Animus Link:** [Secure session (`secure_session.rs`)](https://github.com/AnimusHQ/link/blob/main/crates/fabric-session/src/secure_session.rs)
+- **Python - Datalab SDK:** [Non-blocking telemetry (`telemetry.py`)](https://github.com/Animus-OSC/animus-datalab-sdk/blob/main/python/src/animus_sdk/telemetry.py)
 
-- **Runtime evidence over repository aesthetics.** A feature is not complete because the parser or API accepts it.
-- **Authoritative state is explicit.** Control planes own intent; execution environments report evidence.
-- **Partial failure stays visible.** Degraded state must remain inspectable and reconcilable.
-- **Release claims are revision-specific.** Tests, release identity, rollback and operational evidence matter.
-- **Reproducibility is operational infrastructure.** It shortens diagnosis and makes claims auditable.
-- **Security boundaries are testable.** Permission, identity, transport and execution scope should be explicit enough to verify.
+## Education
 
-## Availability
+**MIREA - Russian Technological University**
 
-- available for interviews now;
-- international remote B2B contracting from Georgia after relocation;
-- open to senior/lead systems, platform, backend, distributed-systems, Rust, protocol and secure-infrastructure roles;
-- open to full-time opportunities where location or relocation terms are explicit.
-
-**Contact:** [rewanderer@proton.me](mailto:rewanderer@proton.me)
-
----
-
-<p align="center">
-  <sub>I build systems that stay correct, observable, reproducible, and operable after the first implementation has shipped.</sub>
-</p>
+- M.Sc. Information Security (2025)
+- Professional Retraining in IT Management (2023)
+- B.Sc. Software Engineering (2023)
