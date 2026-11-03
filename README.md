@@ -1,8 +1,15 @@
-# Maksim Sotnikov
+<h1 align="center">Maksim Sotnikov</h1>
 
-**Full-Stack & Infrastructure Engineer**
+<p align="center">
+  <strong>Full-Stack &amp; Infrastructure Engineer | Remote</strong>
+</p>
 
-Batumi, Georgia | [Email](mailto:rewanderer@proton.me) | [GitHub](https://github.com/grewanderer) | [LinkedIn](https://linkedin.com/in/grewanderer)
+<p align="center">
+  <a href="mailto:rewanderer@proton.me">Email</a> &middot;
+  <a href="https://github.com/grewanderer">GitHub</a> &middot;
+  <a href="https://linkedin.com/in/grewanderer">LinkedIn</a> &middot;
+  <a href="https://animusosc.com">Website</a>
+</p>
 
 ---
 
